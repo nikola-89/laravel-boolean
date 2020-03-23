@@ -1,0 +1,75 @@
+footer {
+	background: #1b3c59;
+	padding: 70px 0 30px;
+	color: #fff;
+	.container {
+		width: 100%;
+		.footer__head {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			border-bottom: 1px solid #fff;
+			padding-bottom: 12px;
+			&__left {
+				img {
+					width: 200px;
+				}
+				&__numbers {
+					font-size: 15px;
+					margin-top: 5px;
+				}
+			}
+			&__right {
+				ul {
+					text-align: right;
+					list-style: none;
+					li {
+						a {
+							font-size: 20px;
+							color: #fff;
+							text-decoration: none;
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+		.footer__bottom {
+			text-align: center;
+			margin-top: 20px;
+			&__icons {
+				a {
+					text-decoration: none;
+					margin: 30px 20px;
+					font-size: 35px;
+					font-style: normal;
+					color: #fff;
+				}
+				.fab {
+					font-family: "Font Awesome 5 Brands";
+					&:hover {
+						color: #61ce4e;
+					}
+				}
+				.fa-facebook-f:before {
+					content: "\f39e";
+				}
+				.fa-instagram:before {
+					content: "\f16d";
+				}
+				.fa-linkedin-in:before {
+					content: "\f0e1";
+				}
+				.fa-youtube:before {
+					content: "\f167";
+				}
+			}
+			&__text {
+				font-size: 15px;
+				margin-top: 20px;
+			}
+		}
+	}
+}
